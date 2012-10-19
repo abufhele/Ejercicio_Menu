@@ -27,7 +27,7 @@ public class MenuColor extends Activity {
     }
     
     public boolean onOptionsItemSelected(MenuItem item) {
-    	men = (TextView) findViewById (R.string.mencolor);
+    	men = (TextView) findViewById (R.id.color);
         switch (item.getItemId()) {
         case R.id.amarillo: men.setTextColor(Color.YELLOW); break;
         case R.id.azul: men.setTextColor(Color.BLUE); break;
